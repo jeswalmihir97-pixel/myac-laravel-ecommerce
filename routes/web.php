@@ -18,10 +18,6 @@ use App\Models\User;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('svalue');
-});
 //login authinction 
 
 Route::get('/register', [AuthController::class, 'showRegister'])->name('login');
